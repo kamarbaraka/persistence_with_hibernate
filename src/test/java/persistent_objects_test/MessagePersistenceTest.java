@@ -38,10 +38,10 @@ public class MessagePersistenceTest {
             session.beginTransaction();
 
             Message message = new Message();
-            message.setText("hello kamar, you handsome");
+            message.setText("yoh, my name is kamar baraka");
 
             Message greeting = new Message();
-            greeting.setText("hello kenyans");
+            greeting.setText("hello my man's is hot");
 
             session.persist(message);
             session.persist(greeting);
